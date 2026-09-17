@@ -28,8 +28,8 @@ While the core Divergence Engine runs locally on the ESP32-S3 via Serial Plotter
 *(Add your plotter_demo.png screenshot here)*
 
 ### Web Portal Prototype
-
-
+![GhostDose PK/PD Dashboard](dashboard_top.jpg)
+![GhostDose Kinematic Waveform](dashboard_bottom.jpg)
 
 ### Hardware Setup
 *(Add your circuit_wiring.jpg photo here)*
