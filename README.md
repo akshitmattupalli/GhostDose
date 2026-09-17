@@ -32,4 +32,4 @@ While the core Divergence Engine runs locally on the ESP32-S3 via Serial Plotter
 ![GhostDose Kinematic Waveform](dashboard_bottom.jpeg)
 
 ### Hardware Setup
-*(Add your circuit_wiring.jpg photo here)*
+![GhostDose Prototype Wiring](circuit_wiring.jpg)
