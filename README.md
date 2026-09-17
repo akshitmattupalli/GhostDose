@@ -24,8 +24,10 @@ While the core Divergence Engine runs locally on the ESP32-S3 via Serial Plotter
 3. Open **Tools > Serial Plotter** at 115200 baud to view the live clinical waveform.
 4. Open `index.html` in Chrome/Safari to view the enterprise clinical UI prototype.
 
-### Live Telemetry Demo
-*(Add your plotter_demo.png screenshot here)*
+### Edge Telemetry Verification
+
+![GhostDose Serial Monitor](serial%20monitor.jpeg)
+![GhostDose Serial Plotter](serial%20plotter.jpeg)
 
 ### Web Portal Prototype
 ![GhostDose PK/PD Dashboard](dashboard_top.jpeg)
