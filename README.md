@@ -13,10 +13,12 @@ Instead of streaming raw analog voltages, the ESP32-S3 performs local edge-compu
 2. **Gait Analysis:** Calculates 3D vector magnitude ($Magnitude = \sqrt{X^2 + Y^2 + Z^2}$) from the IMU to isolate heel strikes.
 3. **Delta Calculation:** Continuously subtracts the patient's actual mobility from a hardcoded baseline "Expected Target" (simulating a Naproxen PK/PD efficacy curve) to calculate the Residual Delta.
 
-## Enterprise Web Dashboard (Prototype)
-While the core Divergence Engine runs locally on the ESP32-S3 via Serial Plotter for real-time edge testing, this repository also includes a comprehensive UI/UX prototype for the scalable clinical triage portal. 
-* Open `index.html` in any web browser to view the multi-patient PK/PD simulator.
-* The dashboard visualizes the theoretical Naproxen response curve mapped against kinematic adherence signals, demonstrating the intended cloud-deployed software architecture.
+### Enterprise Web Dashboard (Prototype)
+
+While the core Divergence Engine runs locally on the ESP32-S3 via Serial Plotter for real-time edge testing, this project also features a fully deployed clinical triage portal.
+
+* **Live Portal:** [View Interactive Dashboard](https://ghostdash-ceeatgak.manus.space)
+* **Features:** Visualizes the theoretical Naproxen response curve mapped against kinematic adherence signals, supporting multi-patient triage tags (Concordant, Missed Dose, Treatment Failure).
 
 ## How to Run the Demo
 1. Flash `GhostDose_Firmware.ino` to an ESP32-S3 via the Arduino IDE.
