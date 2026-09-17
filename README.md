@@ -24,8 +24,8 @@ While the core Divergence Engine runs locally on the ESP32-S3 via Serial Plotter
 1. Flash `GhostDose_Firmware.ino` to an ESP32-S3 via the Arduino IDE.
 2. Install the `Adafruit BNO08x` and `Adafruit Unified Sensor` libraries.
 3. Open **Tools > Serial Plotter** at 115200 baud to view the live clinical waveform.
-4. Open `index.html` in Chrome/Safari to view the enterprise clinical UI prototype.
-
+4. Visit the live [GhostDose Clinical Triage Portal](https://ghostdash-ceeatgak.manus.space) to view the enterprise UI prototype.
+  
 ### Edge Telemetry Verification
 
 ![GhostDose Serial Monitor](serial%20monitor.jpeg)
